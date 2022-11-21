@@ -1,17 +1,5 @@
 #Needs a sorted array before implementation
-'''
-def binsearch(arr, low, high, x):
-    if low <= high:
-        mid = (low + high - low) //2
-        if arr[mid] == x:
-            return mid
-        elif arr[mid] > x:
-            return binsearch(arr,low, mid-1, x)
-        else:
-            return binsearch(arr,mid+1, high, x )
 
-arr = [1,2,3,4,5,6,7,8,9]
-print(binsearch(arr,0,len(arr)-1,8))'''
 def binary_search(arr, low, high, x):
 
 # Check base case
