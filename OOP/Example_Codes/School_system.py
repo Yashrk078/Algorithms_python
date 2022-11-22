@@ -23,14 +23,3 @@ XYZUniv.Projects("Solar Windmill", "Environmental Science")
 print(f"Universiy Name: {XYZUniv.university}\nLocation : {XYZUniv.location}")
 print(f"Number of Students: {XYZUniv.num_students}\nNumber of Teachers : {XYZUniv.num_teachers}")
 print(f"Qualified Project Name: {XYZUniv.project}\nProject Category : {XYZUniv.category}")
-
-
-
-#XYZProjects = School.Projects("Glowing Lantern", "Environmental Science")
-
-#print("University Name: "+XYZUniv.university)
-# print("University Location: "+XYZUniv.location)
-
-#print(XYZDetails)
-#print("Student details of "+XYZUniv.university+" :"+ XYZDetails)
-#print("Project Details of "+XYZUniv.university+" :"+ XYZProjects)
