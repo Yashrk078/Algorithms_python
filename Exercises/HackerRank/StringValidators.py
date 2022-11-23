@@ -10,8 +10,8 @@ if __name__ == '__main__':
 #the python any() function returns True if the iterable returns value as true, else False
 
     if 0 < len(s) < 100:
-        print(any(s.isalnum() for s in s))
-        print(any(s.isalpha() for s in s))
-        print(any(s.isdigit() for s in s))
-        print(any(s.islower() for s in s))
-        print(any(s.isupper() for s in s))
+        print(any(i.isalnum() for i in (s)))
+        print(any(i.isalpha() for i in (s)))
+        print(any(i.isdigit() for i in (s)))
+        print(any(i.islower() for i in (s)))
+        print(any(i.isupper() for i in (s)))
