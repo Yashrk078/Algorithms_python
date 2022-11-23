@@ -23,6 +23,5 @@ def listOverlap():
     print(f'List B is :{listB}')
     print(f'Occurences of Similar elements: {finalList}')
 
-a = [1,2,3]
-b = [1,5,6,7,3]
+
 print(listOverlap())
