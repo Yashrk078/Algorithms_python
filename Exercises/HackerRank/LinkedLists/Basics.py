@@ -22,6 +22,11 @@ class FuncLinkedList:
         while (last.nextNode):
             last=last.nextNode
         last.nextNode=NewNode
+    def insertNodeAtHead(self, data):
+        NewNode=Node(data)
+        NewNode.nextNode=self.head
+        self.head=NewNode
+        
 
 list=FuncLinkedList()
 list.head = Node("A")
@@ -30,8 +35,10 @@ l3= Node("C")
 list.head.nextNode=l2
 l2.nextNode=l3
 list.insertNodeAtTail("Tail")
+list.insertNodeAtHead('Head')
 
 #-------------------------------------------------------
 
 #---------------TRAVERSING-LINKED-LIST------------------
 list.traverseList()
+
