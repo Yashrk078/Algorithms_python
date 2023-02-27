@@ -30,6 +30,15 @@ class LinkedList:
             curNode = curNode.next
         curNode.next = newNode
 
+    def OPTIMIZED_insertAtTail(self, data): #FOR HAKCERANK CHALLENGE
+        newNode= Node(data)
+        if not self.head:
+            self.head = newNode
+        curNode = self.head
+        while curNode.next:
+            curNode = curNode.next
+        curNode.next = newNode   
+        
     def insertAtHead(self, data):
         newNode = Node(data)
         newNode.next = self.head
